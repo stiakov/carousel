@@ -10,7 +10,7 @@ h1 { text-align: center; }
   width: 90vw;
   height: fit-content;
   
-  border: dotted lightslategrey;
+  border: solid #F3E6FF .5px;
 }
 
 #carousel::-webkit-scrollbar {
@@ -26,5 +26,6 @@ h1 { text-align: center; }
   font-size: 5em;
   text-align: center;
   line-height: 300px;
-  border: solid orange 1px;
+  background-color: #FFF9EF;
+  border-radius: 7px;
 }
