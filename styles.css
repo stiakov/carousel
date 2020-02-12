@@ -1,0 +1,22 @@
+h1 { text-align: center; }
+
+#carousel {
+  display: flex;
+  
+  margin: 0 auto 0 auto;
+  width: 90vw;
+  height: fit-content;
+  
+  border: dotted lightslategrey;
+}
+
+.item {
+  min-width: 300px;
+  min-height: 20vh;
+  margin: 15px;
+
+  font-size: 5em;
+  text-align: center;
+  line-height: 300px;
+  border: solid orange 1px;
+}
