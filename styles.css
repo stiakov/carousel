@@ -3,12 +3,19 @@ h1 { text-align: center; }
 #carousel {
   display: flex;
   overflow-x: auto;
+  -ms-overflow-style: none; /* Hide the scrollbar for MS Edge */
+  scrollbar-width: none; /* Hide the scrollbar for Mozilla Firefox */
 
   margin: 0 auto 0 auto;
   width: 90vw;
   height: fit-content;
   
   border: dotted lightslategrey;
+}
+
+#carousel::-webkit-scrollbar {
+  display: none; /* Hide the scrollbar on Webkit based browsers (Chrome, Safari, etc) */
+  -webkit-overflow-scrolling: touch; /* On touch screens the content continues to scroll for a while after finishing the scroll gesture */
 }
 
 .item {
