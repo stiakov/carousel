@@ -2,7 +2,8 @@ h1 { text-align: center; }
 
 #carousel {
   display: flex;
-  
+  overflow-x: auto;
+
   margin: 0 auto 0 auto;
   width: 90vw;
   height: fit-content;
