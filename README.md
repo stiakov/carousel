@@ -1,5 +1,7 @@
 # How I Made a Horizontal Carousel for My Responsive WebApp
 
+![Apple Watch Pattern Library by Hanna Jung](https://miro.medium.com/max/480/1*UBAFXNsFeWLzbMt8Iky-Eg.gif)
+
 Making the web accessible is a crucial feature to let the users experience it with satisfaction. The same precept applies when we display the information in our web app.
 
 Horizontal scrollable fields became popular when mobile devices rose to stardom. Since then, there have been many cases where a carousel finds its perfect fit to showcase items.
@@ -11,11 +13,10 @@ Some of its advantages are:
 
 **Note:**
 
-Find this tutorial in (GitHub)[https://github.com/stiakov/carousel] and explore every step jumping over commits:
+Find this tutorial in [GitHub](https://github.com/stiakov/carousel) and explore every step jumping over commits:
 
 `git checkout <hash_number>`
 
----
 
 ## Laying out our carousel
 _git checkout 9a5b614d39b3293132bca16e74d1a65cdb881f42_
@@ -43,8 +44,6 @@ Let’s add the basic components: One container and some divisions within.
 </body>
 ```
 
-
----
 
 ## Making it horizontal with CSS rules
 _git checkout 4d07f7c52eee4ce4e2596254f3b4af0adbc394d7_
@@ -88,7 +87,6 @@ Let’s add dimensions and borders to make it visible and flexbox to make it hor
 }
 ```
 
----
 
 ## Constrain the overflow over the X-axis
 _git checkout bc22519554bafab063bfc0b595cfb8fc62eabde2_
@@ -126,7 +124,6 @@ To hide the scrollbar we need to handle rules for the most popular [browser engi
 }
 ```
 
----
 
 ## Final touches
 _git checkout fdf7567a578d6bf7a684919c591a1fbf48ad2eb7_
@@ -149,7 +146,6 @@ Finally, let’s replace some and add an extra style to enhance the beauty of ou
 }
 ```
 
----
 
 ## Compendium
 
@@ -219,9 +215,15 @@ There you are, those are the completed code blocks.
 }
 ```
 
----
-
 ## Live Preview
 
-- [GH-Pages](#).
-- [CodePen](https://codepen.io/stiakov/pen/eYNpbyL).
+- [GH-Pages](https://stiakov.github.io/carousel/)
+- [CodePen](https://codepen.io/stiakov/pen/eYNpbyL)
+
+## Author
+
+👤 **Santiago Torres G.**
+
+* [GitHub](https://github.com/stiakov)
+* [LinkedIn](https://www.linkedin.com/in/stiakov/)
+* [Twitter](https://twitter.com/st_iakov)
